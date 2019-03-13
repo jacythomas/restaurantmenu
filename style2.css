@@ -4,6 +4,9 @@
 body {
   width: 900px;
   margin: 10px auto;
+  font-family: "Oswald";
+  font-size: 14px;
+
 }
 
 nav {
@@ -12,6 +15,11 @@ nav {
 }
 
 /* Use the 'Bungee Inline' font at 46px and lighter weight for the restaurant name. */
+
+h1 {font-family:'Bungee Inline';
+font-size: 46px;
+font-weight: lighter;
+}
 
 main {
   columns: 420px 2;
@@ -24,18 +32,23 @@ section {
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
 h2 {
+  text-transform: uppercase;
   margin-top: 0;
 }
 
 /* Make the name of each menu item appear in bold in a 16px size. */
 dt {
   display: inline;
+  font-weight:bold;
+
 }
+
 /* Make a comma appear after the name of each menu item (before the description) */
 
-dd {
+dd { 
   display: inline;
   margin: 0;
+ 
 }
 
 dd::after {
@@ -43,12 +56,20 @@ dd::after {
   display: block;
   clear: both;
   margin-bottom: 15px;
+ 
 }
 
 .price {
   float: right;
   padding: 0 0 35px 20px;
+} 
+
+
+footer{
+  text-align:right;
+
 }
+
 
 /* Right-align the text of the address/footer */
 

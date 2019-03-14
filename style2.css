@@ -51,6 +51,8 @@ dd {
  
 }
 
+dt::after{ content: ","; }
+
 dd::after {
   content: " ";
   display: block;

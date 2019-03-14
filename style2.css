@@ -25,7 +25,7 @@ main {
   columns: 420px 2;
   column-gap: 60px;
 }
-section {
+section { 
   margin-bottom: 20px;
   padding: 10px;
 }
@@ -69,6 +69,13 @@ footer{
   text-align:right;
 
 }
+
+
+ section#starters { border: 2px solid black;
+}
+
+section#desserts { border: 2px solid black}
+
 
 
 /* Right-align the text of the address/footer */

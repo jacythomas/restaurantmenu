@@ -6,6 +6,7 @@ body {
   margin: 10px auto;
   font-family: "Oswald";
   font-size: 14px;
+  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/170629165055-colorscope-yellow-cover-buttercup-1600-full-169.jpg)
 
 }
 
@@ -71,12 +72,15 @@ footer{
   text-align:right;
 
 }
+ 
 
 
  section#starters { border: 2px solid black;
 }
 
 section#desserts { border: 2px solid black}
+
+
 
 
 
